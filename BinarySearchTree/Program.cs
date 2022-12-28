@@ -14,6 +14,10 @@ namespace BinarySearchTree
 
         // Constructor for the Node class
         public Node(string i, Node l, Node r)
-        { }
+        {
+            info = i;
+            leftchild = l;
+            rightchild = r;
+        }
     }
 }
