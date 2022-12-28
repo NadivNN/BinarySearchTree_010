@@ -29,6 +29,10 @@ namespace BinarySearchTree
         public Node ROOT;
         public Program()
         {
+            ROOT = null; /*Initializing ROOT to null*/
+        }
+        public void search(string element, ref Node parent, ref Node currentNode)
+        {
 
         }
     }
